@@ -3,25 +3,25 @@ const services = [
     title: "Corporate Wear",
     description:
       "Sharp, professional outfits tailored to command respect in any boardroom or business setting.",
-    image: "/src/assets/corporate-wears.jpg",
+    image: "/services/corporate-wears.jpg",
   },
   {
     title: "Dresses",
     description:
       "Elegant gowns and everyday dresses crafted to celebrate your femininity and personal style.",
-    image: "/src/assets/dresses.jpg",
+    image: "/services/dresses.jpg",
   },
   {
     title: "Pants",
     description:
       "Perfectly fitted trousers and palazzo pants that blend comfort with sophistication.",
-    image: "/src/assets/pants.jpg",
+    image: "/services/pants.jpg",
   },
   {
     title: "Asoebi",
     description:
       "Stunning traditional outfits for weddings, celebrations and cultural occasions.",
-    image: "/src/assets/asoebi.jpg",
+    image: "/services/asoebi.jpg",
   },
 ];
 
