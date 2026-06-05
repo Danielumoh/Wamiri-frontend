@@ -109,6 +109,16 @@ Hello WAMIRI! I'd like to book a consultation.
       `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`,
       "_blank",
     );
+
+    setForm({
+      name: "",
+      phone: "",
+      email: "",
+      service: "",
+      date: "",
+      time: "",
+      notes: "",
+    });
   }
 
   return (
