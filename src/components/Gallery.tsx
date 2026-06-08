@@ -1,26 +1,26 @@
 const galleryImages = [
   {
-    url: "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
+    image: "/gallery/pinterest cooperate.jpg",
     title: "Corporate Wear",
   },
   {
-    url: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
-    title: "Evening Dress",
+    image: "/gallery/pinterest pants.jpg",
+    title: "Pants",
   },
   {
-    url: "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80",
+    image: "/gallery/pinterest asoebi.jpg",
     title: "Asoebi",
   },
   {
-    url: "https://images.unsplash.com/photo-1550614000-4895a10e1bfd?w=600&q=80",
-    title: "Bespoke Dress",
+    image: "/gallery/dresses-pin.jpg",
+    title: "Dresses",
   },
   {
-    url: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600&q=80",
+    image: "/gallery/women cooperate.jpg",
     title: "Corporate Style",
   },
   {
-    url: "https://images.unsplash.com/photo-1544441893-675973e31985?w=600&q=80",
+    image: "/gallery/Trad-pin.jpg",
     title: "Traditional Wear",
   },
 ];
@@ -50,7 +50,7 @@ function Gallery() {
               className="relative h-64 md:h-72 lg:h-80 overflow-hidden group cursor-pointer"
             >
               <img
-                src={image.url}
+                src={image.image}
                 alt={image.title}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />

@@ -92,13 +92,13 @@ function BookingPage() {
     const message = `
 Hello WAMIRI! I'd like to book a consultation.
 
-*Name:* ${form.name}
-*Phone:* ${form.phone}
-*Email:* ${form.email || "Not provided"}
-*Service:* ${form.service}
-*Preferred Date:* ${form.date}
-*Preferred Time:* ${form.time}
-*Notes:* ${form.notes || "None"}
+Name: ${form.name}
+Phone: ${form.phone}
+Email: ${form.email || "Not provided"}
+Service: ${form.service}
+Preferred Date: ${form.date}
+Preferred Time: ${form.time}
+Notes: ${form.notes || "None"}
     `.trim();
 
     // URL encode the message
@@ -150,7 +150,7 @@ Hello WAMIRI! I'd like to book a consultation.
         {/* Name */}
         <div className="flex flex-col gap-2">
           <label className="text-sm tracking-widest uppercase text-gray-700">
-            Full Name *
+            Full Name 
           </label>
           <input
             type="text"
@@ -168,7 +168,7 @@ Hello WAMIRI! I'd like to book a consultation.
         {/* Phone */}
         <div className="flex flex-col gap-2">
           <label className="text-sm tracking-widest uppercase text-gray-700">
-            Phone Number *
+            Phone Number 
           </label>
           <input
             type="tel"
@@ -203,7 +203,7 @@ Hello WAMIRI! I'd like to book a consultation.
         {/* Service */}
         <div className="flex flex-col gap-2">
           <label className="text-sm tracking-widest uppercase text-gray-700">
-            Service *
+            Service 
           </label>
           <select
             name="service"
@@ -228,7 +228,7 @@ Hello WAMIRI! I'd like to book a consultation.
         <div className="grid grid-cols-2 gap-6">
           <div className="flex flex-col gap-2">
             <label className="text-sm tracking-widest uppercase text-gray-700">
-              Preferred Date *
+              Preferred Date 
             </label>
             <input
               type="date"
@@ -275,7 +275,7 @@ Hello WAMIRI! I'd like to book a consultation.
         {/* Notes */}
         <div className="flex flex-col gap-2">
           <label className="text-sm tracking-widest uppercase text-gray-700">
-            Additional Notes (Optional)
+            Additional Notes  (Optional)
           </label>
           <textarea
             name="notes"

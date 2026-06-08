@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 
 // Placeholder images — replace with real ones later
 const carouselImages = [
-  "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
-  "https://images.unsplash.com/photo-1550614000-4895a10e1bfd?w=600&q=80",
-  "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80",
-  "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
+  "/gallery/pinterest cooperate.jpg",
+  "/gallery/pinterest pants.jpg",
+  "/gallery/pinterest asoebi.jpg",
+  "/gallery/dresses-pin.jpg",
 ];
 
 function About() {
